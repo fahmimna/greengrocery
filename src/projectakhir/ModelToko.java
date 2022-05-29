@@ -152,7 +152,7 @@ public class ModelToko {
      {
           try
         {
-            String query = "INSERT INTO `detail_pesanan` (`id_order`, `id_buah`, `banyak_pesanan`, `total_harga`)"
+            String query = "INSERT INTO `detail_pesanan` (`id_order`, `id_sayur`, `banyak_pesanan`, `total_harga`)"
                     + "VALUES ('"+id_order+"', '"+idSayur+"', '"+banyakPesan+"', '"+0+"')";
             statement.executeUpdate(query);
         }
