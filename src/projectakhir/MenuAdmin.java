@@ -19,8 +19,8 @@ public class MenuAdmin extends JFrame{
     JLabel judul = new JLabel("DASHBOARD");
     JButton btnTambahSayur = new JButton("ADD");
     JButton btnRiwayat = new JButton("PURCHASE");
-    JButton btnBack = new JButton("EXIT");
-    JButton btnExit = new JButton("BACK");
+    JButton btnBack = new JButton("BACK");
+    JButton btnExit = new JButton("EXIT");
     
     public MenuAdmin(){
         setTitle("Dashboard");
